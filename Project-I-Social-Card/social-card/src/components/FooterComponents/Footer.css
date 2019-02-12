@@ -1,0 +1,15 @@
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #808080;
+    width: 300px;
+    font-size: 14px;
+    margin: 20px auto auto 50px;
+}
+
+.footer-content img {
+    width: 17px;
+    height: auto;
+}
