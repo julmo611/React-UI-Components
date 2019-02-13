@@ -1,0 +1,54 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
+
+$font-family: 'Roboto', sans-serif;
+
+body {
+    background-color: #000000;
+}
+
+.calc-container {
+    background-color: #ffffff;
+    width: 500px;
+    border: 2px solid gray;
+    margin: 100px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; 
+
+  
+    .numbers {
+        width: 384px;
+        .big-buttons {
+            
+            text-align: center;
+            button {
+               width: 100%;
+               font-size: 50px;
+               font-weight: 300;
+               font-family: $font-family;
+               padding: 30px 20px;;
+               border: none;
+               border: 1px solid gray;
+               background-color: #ffffff;
+               cursor: pointer;
+              
+            }
+            .numberbtn {
+                font-weight: 700;
+                font-size: 40px;
+            }
+        
+        }
+    }
+    .action-btns {
+        width: 112px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+}
