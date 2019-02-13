@@ -1,0 +1,38 @@
+
+$num-color: #ffffff;
+$act-color: #9f031e;
+$font-family: 'Roboto', sans-serif;
+
+
+@mixin font() {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: $font-family;
+    padding: 30px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+
+  }
+  
+
+button {
+    width: 33.33%;
+    height: 112px;
+    
+}
+     
+.numberbtn {
+    @include font();
+    background-color: $num-color;
+  
+    
+}
+  
+    
+.actionbtn {
+    width: 100%;
+    color: #ffffff;
+    background-color: $act-color;
+    @include font();
+}
+
